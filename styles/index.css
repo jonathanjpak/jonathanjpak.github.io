@@ -65,7 +65,14 @@ body {
     border-radius: 50%;
 }
 
-.link-icons {
+.icon-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.icon-link {
     font-size: 3rem;
+    text-decoration: none;
     color: rgb(116, 192, 252);
 }
