@@ -1,6 +1,7 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 body {
@@ -59,4 +60,9 @@ body {
     height: 350px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.fa-brands {
+    font-size: 2rem;
+    color: rgb(116, 192, 252);
 }
