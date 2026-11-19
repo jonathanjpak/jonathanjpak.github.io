@@ -12,11 +12,19 @@ body {
     padding-top: 70px;
 }
 
+main {
+    text-align: center;
+}
+
 section {
     scroll-margin-top: 80px;
+    text-align: start;
 }
 
 .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -24,6 +32,15 @@ section {
     z-index: 1000;
     padding: 15px 30px;
     background-color: rgb(238, 238, 248);
+}
+
+.home-splash {
+    font-family: "Corinthia", cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
 }
 
 .nav-links {
@@ -47,7 +64,7 @@ section {
     color: white;
 }
 
-.home {
+section {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -112,4 +129,36 @@ section {
 .icon-link:focus-visible::after {
     opacity: 1;
     visibility: visible;
+}
+
+.education-block {
+    flex: 1;
+}
+
+.education-items {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: start;
+    margin-top: 24px;
+    justify-content: space-between;
+}
+
+.university-badge img {
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    border: 1px solid #d9dbdf;
+    box-shadow: 5px 5px 5px #d9dbdf;
+}
+
+footer .copyright {
+    color: rgb(116, 192, 252);
+    font-size: 0.75rem;
 }
