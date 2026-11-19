@@ -145,8 +145,8 @@ section {
 }
 
 .university-badge img {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     background-color: white;
     border-radius: 12px;
     display: flex;
@@ -154,9 +154,11 @@ section {
     align-items: center;
     justify-content: center;
     gap: 4px;
+    border: 1px solid #d9dbdf;
+    box-shadow: 5px 5px 5px #d9dbdf;
 }
 
-.education footer .copyright {
+footer .copyright {
     color: rgb(116, 192, 252);
     font-size: 0.75rem;
 }
