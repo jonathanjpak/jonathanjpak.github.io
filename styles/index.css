@@ -114,6 +114,26 @@ section {
     visibility: visible;
 }
 
+.education-items {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 24px;
+    align-items: start;
+    margin-top: 24px;
+}
+
+.university-badge img {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
 footer .copyright {
     color: rgb(116, 192, 252);
     font-size: 0.75rem;
