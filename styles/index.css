@@ -47,7 +47,7 @@ section {
     color: white;
 }
 
-.home {
+section {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -134,7 +134,7 @@ section {
     gap: 4px;
 }
 
-footer .copyright {
+.education footer .copyright {
     color: rgb(116, 192, 252);
     font-size: 0.75rem;
 }
