@@ -113,3 +113,8 @@ section {
     opacity: 1;
     visibility: visible;
 }
+
+footer .copyright {
+    color: rgb(116, 192, 252);
+    font-size: 0.75rem;
+}
